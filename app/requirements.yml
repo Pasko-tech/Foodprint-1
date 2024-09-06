@@ -1,0 +1,5 @@
+name: foodprint_conda
+dependencies:
+  - python
+  - pip:
+      - django
