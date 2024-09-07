@@ -6,4 +6,4 @@ class LandingPage(models.Model):
     filtering_options = models.CharField(max_length=255)
 
     def __str__(self):
-        return self.search_bar
+        return f"Landing Page: {self.search_bar}"
