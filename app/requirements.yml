@@ -3,3 +3,5 @@ dependencies:
   - python
   - pip:
       - django
+      - djangorestframework
+      - drf_yasg
